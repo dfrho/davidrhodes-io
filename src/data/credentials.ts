@@ -36,4 +36,13 @@ export const education = {
   school: "University of Missouri",
   place: "Columbia, MO",
   credential: "Bachelor of Journalism/Advertising",
+  story: {
+    headline: "I was trained to find the story.",
+    beats: [
+      "Reporters interview before they write. I run discovery the same way.",
+      "News leads with what matters most. So do my executive demos.",
+      "Deadlines teach you to cut everything else. That's how I keep a demo tight.",
+    ],
+    closer: "Same craft, different newsroom.",
+  },
 } as const;

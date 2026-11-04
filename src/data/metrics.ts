@@ -33,18 +33,6 @@ export const metricGroups: readonly MetricGroup[] = [
         detail: "FullStory customer and webinar demos.",
       },
       {
-        value: "$212K",
-        label: "Supported deal ACV",
-        detail:
-          "Feedonomics. Five North American sellers: 4 enterprise, 1 corporate.",
-      },
-      {
-        value: "$195K",
-        label: "Supported deal ACV",
-        detail:
-          "FullStory. Four North American and European sellers: 3 enterprise, 1 mid-market. eCommerce analytics sold to drive conversions.",
-      },
-      {
         value: "31%",
         label: "Increased customer retention by",
         detail: "Winmo. A Salesforce integration that was prototyped and shipped.",
