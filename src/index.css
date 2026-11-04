@@ -732,16 +732,11 @@ a:hover {
   color: var(--hero-text);
 }
 
-.education-credo {
+.education-bridge {
   margin: 0.6rem 0 0;
   color: var(--hero-muted);
   font-size: 0.92rem;
   line-height: 1.4;
-}
-
-.education-slogan {
-  color: var(--hero-link);
-  font-style: italic;
 }
 
 .education-beats {

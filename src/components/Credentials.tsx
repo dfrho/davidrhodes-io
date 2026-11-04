@@ -1,24 +1,6 @@
-import { useState, type ReactNode } from "react";
+import { useState } from "react";
 import { certifications, education } from "../data/credentials.ts";
 import { SectionHeading } from "./SectionHeading.tsx";
-
-const credoSlogan = "“Truth Well Told,”";
-
-function CredoParagraph({ text }: { text: string }) {
-  const sloganAt = text.indexOf(credoSlogan);
-  let body: ReactNode = text;
-  if (sloganAt !== -1) {
-    body = (
-      <>
-        {text.slice(0, sloganAt)}
-        <em className="education-slogan">{credoSlogan}</em>
-        {text.slice(sloganAt + credoSlogan.length)}
-      </>
-    );
-  }
-
-  return <p className="education-credo">{body}</p>;
-}
 
 export function Credentials() {
   return (
@@ -78,7 +60,7 @@ function EducationCard() {
             aria-hidden={!flipped || undefined}
           >
             <p className="education-headline">{education.story.headline}</p>
-            <CredoParagraph text={education.story.credo} />
+            <p className="education-bridge">{education.story.bridge}</p>
             <ul className="education-beats">
               {education.story.beats.map((beat) => (
                 <li key={beat}>{beat}</li>
