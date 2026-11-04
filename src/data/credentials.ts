@@ -38,6 +38,8 @@ export const education = {
   credential: "Bachelor of Journalism/Advertising",
   story: {
     headline: "I was trained to find the story.",
+    credo:
+      "McCann's 1912 credo, “Truth Well Told,” is the whole job in sales: find what's true for the buyer, then tell it so they can see themselves in it.",
     beats: [
       "Reporters interview before they write. I run discovery the same way.",
       "News leads with what matters most. So do my executive demos.",

@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it } from "vitest";
 import App from "../App.tsx";
+import { education } from "../data/credentials.ts";
 
 function faceFor(text: string) {
   const node = screen.getByText(text);
@@ -34,6 +35,13 @@ describe("education card", () => {
     expect(card).toHaveAttribute("aria-pressed", "true");
     expect(card).toHaveAccessibleName(/flip back/i);
     expect(screen.getByText("I was trained to find the story.")).toBeInTheDocument();
+    const credo = screen.getByText(
+      (_content, element) =>
+        element?.tagName === "P" && element.textContent === education.story.credo,
+    );
+    expect(credo).toBeInTheDocument();
+    expect(credo.textContent).toContain("“Truth Well Told,”");
+    expect(credo.querySelector("em.education-slogan")?.textContent).toBe("“Truth Well Told,”");
     expect(
       screen.getByText("Reporters interview before they write. I run discovery the same way."),
     ).toBeInTheDocument();
