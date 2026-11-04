@@ -34,7 +34,7 @@ export const metricGroups: readonly MetricGroup[] = [
       },
       {
         value: "31%",
-        label: "Increased customer retention by",
+        label: "Increased customer retention for",
         detail: "Winmo. Championed Salesforce integration that was prototyped and shipped.",
       },
     ],

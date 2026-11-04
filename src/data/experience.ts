@@ -118,7 +118,7 @@ export const experience: readonly Role[] = [
       "Account Manager for a GTM business intelligence platform for the media and ad tech space.",
     highlights: [
       "Consistently exceeded quota and earned top-seller performance by pairing consultative selling with solution-oriented execution on enterprise-level new business and renewal accounts in media and advertising technology.",
-      "Prototyped a Salesforce integration that was shipped, increasing customer retention by 31%.",
+      "Prototyped a Salesforce integration that was shipped, increasing customer retention for 31%.",
     ],
   },
 ];
