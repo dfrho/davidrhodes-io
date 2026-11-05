@@ -19,7 +19,7 @@ export const experience: readonly Role[] = [
     context:
       "Senior Solutions Engineer for a full-service eCommerce middleware platform, a division of Commerce, Inc.",
     highlights: [
-      "Own technical strategy and execution across pre-sales, expansion, and renewal cycles for five North American sellers (4 enterprise / 1 corporate), supporting deals with ACV of $212K.",
+      "Own technical strategy and execution across pre-sales, expansion, and renewal cycles for five North American sellers (4 enterprise / 1 corporate).",
       "Scaled performance rapidly: exceeded 6-month ramp quota by 112%, then ranked #1–2 revenue-generating SE from Q1–Q3 2026.",
       "Lead end-to-end technical discovery, solution architecture, and demo execution for product listing advertising feed optimization, AI data enrichment, and marketplace listing/order orchestration leveraging SQL-based SaaS products.",
       "Contributed to the feature set of the AI Data Enrichment product that generates product-specific attributes and AEO/GEO question-and-answer content to build discoverability and credibility with LLMs.",
@@ -52,7 +52,7 @@ export const experience: readonly Role[] = [
     context:
       "Senior Solutions Engineer for an AI-powered digital experience platform.",
     highlights: [
-      "Recruited as a workhorse to drive enterprise pre-sales, expansion, and renewal deals for four North American/European sellers (3 enterprise / 1 mid-market), with ACV of $195K selling eCommerce analytics solutions to drive conversions.",
+      "Recruited as a workhorse to drive enterprise pre-sales, expansion, and renewal deals for four North American/European sellers (3 enterprise / 1 mid-market), selling eCommerce analytics solutions to drive conversions.",
       "Delivered high-impact customer and webinar demos that surpassed team average win rate by 22% and exceeded revenue quotas by 46%.",
       "Implemented POCs with partner integrations, including Google Analytics and LaunchDarkly, with clearly defined success metrics.",
       "Drove prototype and launch of StoryAI Session Summary, recognized by leadership as a standout demo feature.",
